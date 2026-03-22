@@ -1,4 +1,48 @@
 /* ========================================
+   FLOATING BACK BUTTON (AUTH)
+   ======================================== */
+.floating-back-btn {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.floating-back-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.floating-back-btn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .floating-back-btn {
+    top: 20px;
+    left: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}
+
+/* ========================================
    AUTH PAGE - DISEÑO PREMIUM CON EFECTOS
    ======================================== */
 

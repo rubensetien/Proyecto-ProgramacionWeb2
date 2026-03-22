@@ -19,8 +19,10 @@ npm run dev
 
 > **Nota:** El archivo `.env` en la raíz de `backend` ha sido configurado para conectarse a **MongoDB Atlas** (`mongodb+srv://<usuario>:<password>@cluster0.icpkptx.mongodb.net/catalogoRegma?retryWrites=true&w=majority`) y escuchar en el puerto `3001`.
 
-### 1.5 Interfaz Gráfica Heredada de PW1
-El diseño del nuevo proyecto en Svelte 5 ha **recuperado e integrado con éxito** el diseño de interfaz de usuario de PW1 (incluidas animaciones procedimentales de partículas, tarjetas 3D en la Landing Page, y estilos CSS avanzados) adaptándolos orgánicamente a componentes Svelte usando `$state`.
+### 1.5 Interfaz Gráfica Heredada de PW1 y Mejoras
+El diseño del nuevo proyecto en Svelte 5 ha **recuperado e integrado con éxito** el diseño de interfaz de usuario de PW1 (incluidas animaciones procedimentales de partículas, tarjetas 3D en la Landing Page, y estilos CSS avanzados) adaptándolos orgánicamente a componentes Svelte.
+Además, se ha mejorado sustancialmente el UX con navegación cohesiva cruzada, botones de retroceso flotantes acristalados (frosted glass) y mallas de administración completas para gestionar CRUDS (Productos, Sabores, Formatos).
+
 ### 2. Iniciar el Frontend (Svelte 5)
 
 Abre otra terminal desde la raíz del proyecto.

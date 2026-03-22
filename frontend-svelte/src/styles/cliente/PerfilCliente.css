@@ -41,7 +41,7 @@ body {
 /* ========== HERO HEADER ========== */
 .profile-hero {
     background-color: var(--color-brand-dark);
-    padding: 2.5rem 1.5rem 4rem;
+    padding: 8rem 1.5rem 4rem;
     color: white;
     margin-bottom: -3rem;
     /* Overlap effect */

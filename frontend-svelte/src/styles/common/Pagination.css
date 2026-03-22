@@ -37,6 +37,12 @@
     gap: 0.5rem;
 }
 
+.page-numbers {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
 .page-btn,
 .page-number {
     display: flex;
